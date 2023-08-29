@@ -12,6 +12,7 @@ const MoveList = ({
   const [viewportWidth, setViewportWidth] = useState(null);
 
   const scrollToMoveHorizontal = (moveIndex) => {
+    if (moveListContainerRef.current === null) return;
     let moveList = moveListContainerRef.current.children;
     if (moveList && moveList.length === 1) {
       moveList = moveList[0];
@@ -50,6 +51,7 @@ const MoveList = ({
   };
 
   const scrollToMoveVertical = (moveIndex) => {
+    if (moveListContainerRef.current === null) return;
     let moveList = moveListContainerRef.current.children;
     if (moveList && moveList.length === 1) {
       moveList = moveList[0];
