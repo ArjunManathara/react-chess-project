@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Arjun1010.github.io/react-chess-project/static/css/main.17848822.css",
+    "main.js": "/Arjun1010.github.io/react-chess-project/static/js/main.d65d5adf.js",
+    "static/js/787.fb9c7072.chunk.js": "/Arjun1010.github.io/react-chess-project/static/js/787.fb9c7072.chunk.js",
+    "static/media/board-blue.jpg": "/Arjun1010.github.io/react-chess-project/static/media/board-blue.2daffb12beac92bb88fb.jpg",
+    "static/media/black_rook.svg": "/Arjun1010.github.io/react-chess-project/static/media/black_rook.fdc575582c2cbe2ec820.svg",
+    "static/media/black_knight.svg": "/Arjun1010.github.io/react-chess-project/static/media/black_knight.7930be9e07b51bc0e069.svg",
+    "static/media/black_king.svg": "/Arjun1010.github.io/react-chess-project/static/media/black_king.6c8cc8fabe5215cc854d.svg",
+    "static/media/black_queen.svg": "/Arjun1010.github.io/react-chess-project/static/media/black_queen.cf388bf415c0d33ec16f.svg",
+    "static/media/white_knight.svg": "/Arjun1010.github.io/react-chess-project/static/media/white_knight.d47944d2cee4f8c707d1.svg",
+    "static/media/black_bishop.svg": "/Arjun1010.github.io/react-chess-project/static/media/black_bishop.04932f63ef10dcdee115.svg",
+    "static/media/white_bishop.svg": "/Arjun1010.github.io/react-chess-project/static/media/white_bishop.aa411d5809c6380713b4.svg",
+    "static/media/white_rook.svg": "/Arjun1010.github.io/react-chess-project/static/media/white_rook.9e48b84f189eea24339f.svg",
+    "static/media/white_queen.svg": "/Arjun1010.github.io/react-chess-project/static/media/white_queen.7a1aecff0f22ff68c43f.svg",
+    "index.html": "/Arjun1010.github.io/react-chess-project/index.html",
+    "static/media/black_pawn.svg": "/Arjun1010.github.io/react-chess-project/static/media/black_pawn.be5d44ca5ee868885d21.svg",
+    "static/media/white_pawn.svg": "/Arjun1010.github.io/react-chess-project/static/media/white_pawn.50273cc6d86861932d0a.svg",
+    "static/media/advantage_queen.svg": "/Arjun1010.github.io/react-chess-project/static/media/advantage_queen.cddc4bdd48ad15f37136.svg",
+    "static/media/white_king.svg": "/Arjun1010.github.io/react-chess-project/static/media/white_king.5d58f1999749c1b5ef5b.svg",
+    "static/media/advantage_bishop.svg": "/Arjun1010.github.io/react-chess-project/static/media/advantage_bishop.92cfad6155858ad14cd3.svg",
+    "static/media/advantage_knight.svg": "/Arjun1010.github.io/react-chess-project/static/media/advantage_knight.bbb92ed7fa792e08a590.svg",
+    "static/media/advantage_pawn.svg": "/Arjun1010.github.io/react-chess-project/static/media/advantage_pawn.851b410310262dfae962.svg",
+    "static/media/first-disabled.svg": "/Arjun1010.github.io/react-chess-project/static/media/first-disabled.b21012a60b2a83fe16ab.svg",
+    "static/media/first.svg": "/Arjun1010.github.io/react-chess-project/static/media/first.c5efee2a9a5b78fc3210.svg",
+    "static/media/advantage_rook.svg": "/Arjun1010.github.io/react-chess-project/static/media/advantage_rook.a53128c277506e9c16a7.svg",
+    "static/media/previous-disabled.svg": "/Arjun1010.github.io/react-chess-project/static/media/previous-disabled.ead72d8779c0295d6691.svg",
+    "static/media/previous.svg": "/Arjun1010.github.io/react-chess-project/static/media/previous.d2dda6d9ae7f98f2f5e3.svg",
+    "main.17848822.css.map": "/Arjun1010.github.io/react-chess-project/static/css/main.17848822.css.map",
+    "main.d65d5adf.js.map": "/Arjun1010.github.io/react-chess-project/static/js/main.d65d5adf.js.map",
+    "787.fb9c7072.chunk.js.map": "/Arjun1010.github.io/react-chess-project/static/js/787.fb9c7072.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17848822.css",
+    "static/js/main.d65d5adf.js"
+  ]
+}
