@@ -1,0 +1,15 @@
+.rook {
+  &.black {
+    background-image: url("../../../../assets/images/black_rook.svg");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
+  &.white {
+    background-image: url("../../../../assets/images/white_rook.svg");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
+  transition-property: transform, opacity;
+}

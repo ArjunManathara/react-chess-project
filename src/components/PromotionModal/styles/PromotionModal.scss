@@ -1,0 +1,74 @@
+.modal {
+  position: absolute;
+  width: 12.5%;
+  height: 50%;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+
+  &.flip {
+    transform: rotate(180deg);
+  }
+
+  &.white {
+    top: 0;
+    .promotion-queen {
+      background: url("../../../assets/images/white_queen.svg");
+      background-size: contain;
+    }
+    .promotion-rook {
+      background: url("../../../assets/images/white_rook.svg");
+      background-size: contain;
+    }
+    .promotion-bishop {
+      background: url("../../../assets/images/white_bishop.svg");
+      background-size: contain;
+    }
+    .promotion-knight {
+      background: url("../../../assets/images/white_knight.svg");
+      background-size: contain;
+    }
+  }
+  &.black {
+    bottom: 0;
+    .promotion-queen {
+      background: url("../../../assets/images/black_queen.svg");
+      background-size: contain;
+    }
+    .promotion-rook {
+      background: url("../../../assets/images/black_rook.svg");
+      background-size: contain;
+    }
+    .promotion-bishop {
+      background: url("../../../assets/images/black_bishop.svg");
+      background-size: contain;
+    }
+    .promotion-knight {
+      background: url("../../../assets/images/black_knight.svg");
+      background-size: contain;
+    }
+  }
+  &.column-1 {
+    left: 0;
+  }
+  &.column-2 {
+    left: 12.5%;
+  }
+  &.column-3 {
+    left: 25%;
+  }
+  &.column-4 {
+    left: 37.5%;
+  }
+  &.column-5 {
+    left: 50%;
+  }
+  &.column-6 {
+    left: 62.5%;
+  }
+  &.column-7 {
+    left: 75%;
+  }
+  &.column-8 {
+    left: 87.5%;
+  }
+}

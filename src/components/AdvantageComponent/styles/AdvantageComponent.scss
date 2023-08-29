@@ -1,0 +1,78 @@
+.graveyardCtr {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  height: calc(100vw / 16);
+  @media screen and (min-width: 414px) {
+    width: 414px;
+    height: calc(414px / 16);
+    margin: auto;
+  }
+  @media screen and (min-width: 620px) {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    height: calc(235px / 4);
+  }
+  @media screen and (min-width: 800px) {
+    width: 235px;
+    margin: unset;
+  }
+  @media screen and (min-width: 1260px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 280px;
+    height: 280px;
+  }
+  &.black {
+    @media screen and (min-width: 1260px) {
+      transform: rotate(180deg);
+      div {
+        transform: rotate(180deg);
+        text-align: right;
+        align-self: center;
+      }
+    }
+  }
+  &.white {
+    @media screen and (min-width: 1260px) {
+      transform: scaleX(-1);
+      div {
+        transform: scaleX(-1);
+        text-align: right;
+        align-self: center;
+      }
+    }
+  }
+  .advantage {
+    &.pawn {
+      background: url("../../../assets/images/advantage_pawn.svg");
+      background-size: contain;
+      height: 100%;
+      width: 100%;
+    }
+    &.knight {
+      background: url("../../../assets/images/advantage_knight.svg");
+      background-size: contain;
+      height: 100%;
+      width: 100%;
+    }
+    &.bishop {
+      background: url("../../../assets/images/advantage_bishop.svg");
+      background-size: contain;
+      height: 100%;
+      width: 100%;
+    }
+    &.rook {
+      background: url("../../../assets/images/advantage_rook.svg");
+      background-size: contain;
+      height: 100%;
+      width: 100%;
+    }
+    &.queen {
+      background: url("../../../assets/images/advantage_queen.svg");
+      background-size: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

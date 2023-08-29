@@ -1,0 +1,20 @@
+.gameState {
+  margin: 24px 0;
+  text-align: center;
+  .gameNumber {
+    font-weight: bold;
+  }
+  .gameComment {
+    font-style: italic;
+  }
+  .newGameButton {
+    font-weight: bold;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    background-color: #302e2c;
+    color: white;
+    margin: 24px 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,128 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "movelist"
+    "graveYard1"
+    "board"
+    "graveYard2"
+    "buttonSet"
+    "gameState";
+  @media screen and (min-width: 620px) {
+    // grid-template-columns: max-content max-content;
+    // grid-template-rows: min-content max-content min-content;
+    // grid-gap: 0 12px;
+    grid-template-columns: 1fr 235px;
+    grid-template-rows: 36px max-content 250px max-content max-content max-content;
+    grid-column-gap: 3vw;
+    grid-template-areas:
+      ". ."
+      "board graveYard1"
+      "board movelist"
+      "board gameState"
+      "board graveYard2"
+      "board buttonSet";
+  }
+  @media screen and (min-width: 800px) {
+    grid-template-columns: max-content 400px;
+    grid-template-rows: 48px max-content 250px max-content max-content max-content;
+    margin: auto;
+    max-width: calc(880px + 3vw);
+  }
+  @media screen and (min-width: 1024px) {
+    max-width: calc(400px + 48vw);
+  }
+  @media screen and (min-width: 1260px) {
+    grid-template-columns: minmax(305px, 350px) max-content minmax(295px, 400px);
+    grid-template-rows: 48px min-content max-content max-content;
+    grid-template-areas:
+      ". . ."
+      "graveYard1 board movelist"
+      "graveYard1 board gameState"
+      "graveYard2 board buttonSet";
+    max-width: calc(1350px + 6vw);
+  }
+  .movelistMain {
+    grid-area: movelist;
+  }
+  .chessctr {
+    grid-area: board;
+  }
+  .graveyardCtr {
+    &.white {
+      grid-area: graveYard1;
+    }
+    &.black {
+      grid-area: graveYard2;
+    }
+  }
+  .buttonsControl {
+    grid-area: buttonSet;
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    @media screen and (min-width: 414px) {
+      width: 414px;
+      margin: 0 auto 24px;
+    }
+    @media screen and (min-width: 620px) {
+      width: 100%;
+      grid-template-columns: auto;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+    .flipButton {
+      cursor: pointer;
+      font-weight: bold;
+      border: none;
+      display: inline-block;
+      padding: 10px;
+      background-color: #302e2c;
+      color: #cccccc;
+      margin-top: 24px;
+      transition: background-color 500ms;
+      box-sizing: border-box;
+      border-right: 3px solid #262421;
+      &:active {
+        background-color: #58b4ff;
+      }
+      &.disabled {
+        color: #302e2c;
+        background-color: #bababa;
+      }
+      @media screen and (min-width: 620px) {
+        margin-top: 12px;
+        border-right: none;
+      }
+    }
+    .animationButton {
+      cursor: pointer;
+      font-weight: bold;
+      border: none;
+      display: inline-block;
+      padding: 10px;
+      background-color: #302e2c;
+      color: #cccccc;
+      transition: background-color 500ms;
+      box-sizing: border-box;
+      margin-top: 24px;
+      &.enabled {
+        background-color: #293a49;
+      }
+      @media screen and (min-width: 620px) {
+        margin-top: 12px;
+      }
+    }
+  }
+  .gameState {
+    grid-area: gameState;
+  }
+}
+
+@keyframes vanish {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
