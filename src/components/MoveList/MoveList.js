@@ -109,10 +109,6 @@ const MoveList = ({
     } else {
       scrollToMoveVertical(currentMoveIndex);
     }
-    return () => {
-      //cleanup ref on component unmount
-      moveListContainerRef.current = null;
-    };
   }, [currentMoveIndex, viewportWidth]);
 
   return (

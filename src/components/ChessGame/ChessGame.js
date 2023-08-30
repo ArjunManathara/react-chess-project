@@ -95,11 +95,6 @@ const ChessGame = () => {
     initialiseGame();
     tempBoardRef.current = null;
     tempGraveyardRef.current = null;
-    return () => {
-      //cleanup refs on component unmount
-      tempBoardRef.current = null;
-      tempGraveyardRef.current = null;
-    };
   }, []);
 
   const handlePieceClick = (e, positionX, positionY, piece) => {
