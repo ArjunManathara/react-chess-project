@@ -12,7 +12,7 @@
     // grid-template-rows: min-content max-content min-content;
     // grid-gap: 0 12px;
     grid-template-columns: 1fr 235px;
-    grid-template-rows: 36px max-content 250px max-content max-content max-content;
+    grid-template-rows: 36px max-content 130px max-content max-content max-content;
     grid-column-gap: 3vw;
     grid-template-areas:
       ". ."
@@ -23,8 +23,8 @@
       "board buttonSet";
   }
   @media screen and (min-width: 800px) {
-    grid-template-columns: max-content 400px;
-    grid-template-rows: 48px max-content 250px max-content max-content max-content;
+    grid-template-columns: max-content;
+    grid-template-rows: 48px max-content 130px max-content max-content max-content;
     margin: auto;
     max-width: calc(880px + 3vw);
   }
@@ -33,13 +33,16 @@
   }
   @media screen and (min-width: 1260px) {
     grid-template-columns: minmax(305px, 350px) max-content minmax(295px, 400px);
-    grid-template-rows: 48px min-content max-content max-content;
+    grid-template-rows: 48px 130px 127px 23px 40px;
     grid-template-areas:
       ". . ."
       "graveYard1 board movelist"
       "graveYard1 board gameState"
+      "graveYard1 board buttonSet"
+      ". board buttonSet"
       "graveYard2 board buttonSet";
-    max-width: calc(1350px + 6vw);
+    max-width: 1400px;
+    grid-column-gap: 24px;
   }
   .movelistMain {
     grid-area: movelist;
@@ -68,7 +71,7 @@
     @media screen and (min-width: 620px) {
       width: 100%;
       grid-template-columns: auto;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: min-content min-content min-content;
     }
     .flipButton {
       cursor: pointer;
@@ -90,8 +93,16 @@
         background-color: #bababa;
       }
       @media screen and (min-width: 620px) {
-        margin-top: 12px;
+        &:first-child {
+          margin-top: 12px;
+        }
+        margin-top: 0px;
         border-right: none;
+      }
+      @media screen and (min-width: 1260px) {
+        &:first-child {
+          margin-top: 0;
+        }
       }
     }
     .animationButton {
@@ -109,7 +120,7 @@
         background-color: #293a49;
       }
       @media screen and (min-width: 620px) {
-        margin-top: 12px;
+        margin-top: 0px;
       }
     }
   }

@@ -80,6 +80,7 @@
   }
   .files {
     position: absolute;
+    pointer-events: none;
     bottom: 0;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -114,6 +115,7 @@
   }
   .ranks {
     position: absolute;
+    pointer-events: none;
     top: 0;
     right: 0;
     display: grid;

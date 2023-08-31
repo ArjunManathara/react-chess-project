@@ -222,7 +222,7 @@ const ChessGame = () => {
       moves = updateDisambiguation(moves);
       moves.forEach((piece) => {
         if (
-          piece.x === selectedPiece.x &&
+          8 - piece.x === selectedPiece.x &&
           piece.y === String.fromCharCode("a".charCodeAt(0) + selectedPiece.y)
         )
           disambiguatedMove = piece.disambiguation;

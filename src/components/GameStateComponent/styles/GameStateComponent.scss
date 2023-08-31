@@ -16,5 +16,8 @@
     color: white;
     margin: 24px 0;
     width: 100%;
+    @media screen and (min-width: 620px) {
+      margin: 24px 0 0;
+    }
   }
 }
