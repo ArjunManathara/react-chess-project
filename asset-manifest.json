@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-chess-project/static/css/main.c514917b.css",
-    "main.js": "/react-chess-project/static/js/main.650f29ff.js",
+    "main.css": "/react-chess-project/static/css/main.eab9e6f3.css",
+    "main.js": "/react-chess-project/static/js/main.8d3e5445.js",
     "static/js/787.fb9c7072.chunk.js": "/react-chess-project/static/js/787.fb9c7072.chunk.js",
     "static/media/board-blue.jpg": "/react-chess-project/static/media/board-blue.2daffb12beac92bb88fb.jpg",
     "static/media/black_rook.svg": "/react-chess-project/static/media/black_rook.fdc575582c2cbe2ec820.svg",
@@ -26,12 +26,12 @@
     "static/media/advantage_rook.svg": "/react-chess-project/static/media/advantage_rook.a53128c277506e9c16a7.svg",
     "static/media/previous-disabled.svg": "/react-chess-project/static/media/previous-disabled.ead72d8779c0295d6691.svg",
     "static/media/previous.svg": "/react-chess-project/static/media/previous.d2dda6d9ae7f98f2f5e3.svg",
-    "main.c514917b.css.map": "/react-chess-project/static/css/main.c514917b.css.map",
-    "main.650f29ff.js.map": "/react-chess-project/static/js/main.650f29ff.js.map",
+    "main.eab9e6f3.css.map": "/react-chess-project/static/css/main.eab9e6f3.css.map",
+    "main.8d3e5445.js.map": "/react-chess-project/static/js/main.8d3e5445.js.map",
     "787.fb9c7072.chunk.js.map": "/react-chess-project/static/js/787.fb9c7072.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c514917b.css",
-    "static/js/main.650f29ff.js"
+    "static/css/main.eab9e6f3.css",
+    "static/js/main.8d3e5445.js"
   ]
 }
